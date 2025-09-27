@@ -1,0 +1,102 @@
+body {
+  margin: 0;                          /* Remove as margens padrão do navegador */
+  font-family: 'Arial', sans-serif;   /* Define a fonte principal */
+  background: #f8f9fa;                /* Cor de fundo clara */
+  color: #333;                        /* Cor padrão do texto */
+  line-height: 1.6;                   /* Espaçamento entre linhas (melhora a leitura) */
+  padding: 20px;                      /* Espaçamento interno da página inteira */
+  box-sizing: border-box;             /* Inclui padding/borda no cálculo total do tamanho */
+}
+
+
+header {
+  background: #222;                   /* Fundo escuro */
+  color: #fff;                        /* Texto branco */
+  padding: 30px 15px;                 /* Espaçamento interno (vertical 30px, horizontal 15px) */
+  text-align: center;                 /* Centraliza o conteúdo */
+  margin-bottom: 30px;                /* Espaço abaixo do header */
+  border-radius: 8px;                 /* Bordas levemente arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave abaixo do header */
+}
+
+
+header h1 {
+  margin: 0;                          /* Remove margem padrão */
+  font-size: 2.2rem;                  /* Tamanho da fonte grande */
+  color: #ffdd57;                     /* Cor amarela/dourada no título */
+  text-shadow: 1px 1px 2px #000;      /* Sombra no texto pra destacar no fundo escuro */
+}
+
+
+header p {
+  margin: 5px 0 15px;                 /* Espaço acima e abaixo */
+  font-size: 1.1rem;                  /* Um pouco maior que o padrão */
+  font-style: italic;                 /* Texto em itálico (dá estilo diferenciado) */
+  color: #ddd;                        /* Cinza claro, contrastando sem roubar a atenção do h1 */
+}
+
+
+nav a {
+  margin: 0 10px;                     /* Espaço horizontal entre os links */
+  text-decoration: none;              /* Remove o sublinhado padrão */
+  color: #ffdd57;                     /* Cor amarela inicial */
+  font-weight: bold;                  /* Texto mais grosso */
+  font-size: 1rem;                    /* Tamanho padrão */
+  transition: color 0.3s;             /* Transição suave ao mudar de cor no hover */
+}
+
+nav a:hover {
+  text-decoration: underline;         /* Sublinha ao passar o mouse */
+  color: #fff;                        /* Troca pra branco */
+  text-shadow: 1px 1px 2px #000;      /* Dá um efeito de destaque */
+}
+
+
+.section {
+  padding: 40px 20px;                 /* Espaçamento interno generoso */
+  max-width: 900px;                   /* Limita a largura máxima do conteúdo */
+  margin: auto;                       /* Centraliza na tela */
+}
+
+
+.section h2 {
+  border-bottom: 3px solid #ffdd57;   /* Linha amarela embaixo do título */
+  display: inline-block;              /* Faz a borda acompanhar o texto apenas */
+  margin-bottom: 15px;                /* Espaço abaixo do título */
+}
+
+
+ul {
+  list-style: none;                   /* Remove os marcadores padrão da lista */
+  padding: 0;                         /* Remove espaçamento interno */
+}
+
+ul li {
+  margin-bottom: 15px;                /* Espaço entre os itens */
+}
+
+a {
+  color: #0066cc;                     /* Links no texto ficam azul padrão */
+}
+a:hover {
+  text-decoration: underline;         /* Sublinha ao passar o mouse */
+}
+
+footer {
+  text-align: center;                 /* Centraliza o texto */
+  padding: 15px;                      /* Espaço interno */
+  background: #222;                   /* Fundo escuro */
+  color: #fff;                        /* Texto branco */
+  margin-top: 30px;                   /* Espaço acima do rodapé */
+  border-radius: 8px;                 /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra */
+  font-size: 0.9rem;                  /* Texto menor */
+  position: relative;                 /* Mantém o rodapé relativo à página */
+  bottom: 0;                          /* Alinhado ao fundo do conteúdo */
+  width: 100%;                        /* Ocupa toda a largura */
+  box-sizing: border-box;             /* Inclui padding/borda no tamanho */
+  margin-bottom: 0;                   /* Remove espaço extra abaixo */
+  margin-left: auto;                  /* Centraliza em telas grandes */
+  margin-right: auto;
+  clear: both;                        /* Evita conflitos de float (se usados no futuro) */
+}
